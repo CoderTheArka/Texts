@@ -1,0 +1,114 @@
+body{
+margin-top:20px; 
+background: url(https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg);
+
+}
+
+.chat-online {
+    color: #34ce57
+}
+
+.chat-offline {
+    color: #e4606d
+}
+
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    max-height: 800px;
+    overflow-y: scroll
+}
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0
+}
+
+.chat-message-left {
+    margin-right: auto
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+.flex-grow-0 {
+    flex-grow: 0!important;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+.border-right{
+
+max-height: 100%;
+overflow-y: scroll;
+background: url(https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp-thumbnail.jpg);
+}
+.mb-3{
+    color: white;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.bocx{
+    background-color: lightgreen;
+    
+}
+.g-0{
+    height: 100vh;
+}
+.card{
+  height:  100vh;
+}
+.p-4{
+    height: 80vh;
+    background: url(https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp-thumbnail.jpg);
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1) , 5px 5px 15px rgba(0, 0, 0, 0.2) ;
+    
+}
+.search
+{
+    top: 0;
+    color: black;
+    background-color:white;
+    text-align: center;
+
+}
+li{
+    list-style-type: none;
+    padding: 2px;
+    margin: 5px;
+
+}
+li:hover{
+    background-color: red;
+    
+}
+#ssd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(https://gbwhatsapp.net/wp-content/uploads/2021/01/3d-4-648x1024.jpg);
+}
+#ssd label{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+   color: white;
+   background-color: red;
+   text-align: center;
+
+}
+#profile
+{
+ border-radius: 50%;
+ border: 2px black;
+}

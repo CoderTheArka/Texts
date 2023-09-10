@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Whatsapp</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-storage.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <script src='mainmain.js'></script>
+
+</head>
+<body onbeforeunload="removed()">
+
+    
+    <main onload="dd()" class="content">
+        <div id="sa" class="container p-0">
+    
+          <u style="color: white;"><h1 class="h3 mb-3">Messages</h1></u>  
+          <input required id="my-3" type="text" class="form-control my-3" placeholder="Search To Chat With User">
+          <div id="ssa" class="search">
+          </div>
+            <div class="card">
+                <div class="row g-0">
+                    <div class="col-12 col-lg-5 col-xl-3 border-right">
+    
+                        <div class=" px-4 d-none d-md-block">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                       <div id="output">
+ 
+                       </div>    
+   
+
+
+    
+                        <hr class="d-block d-lg-none mt-1 mb-0">
+                    </div>
+                    <div id="ssd" class="col-12 col-lg-7 col-xl-9">
+                      <label>YOUR OWN WORLD BY ARKA IGHMS.</label><br>
+                    </div>
+                    <div id="mainsss" style="display: none;"  class="col-12 col-lg-7 col-xl-9">
+                        <div class="py-2 px-4 border-bottom d-none d-lg-block">
+                            <div class="d-flex align-items-center py-1">
+                                <div class="position-relative">
+                                    <img id="profile" src="f.png" class="rounded-circle mr-1" alt="Sharon Lessman" width="40" height="40">
+                                </div>
+                                <div class="flex-grow-1 pl-3">
+                                    <strong id="ssda">Sharon Lessman</strong>
+                                    <div class="text-muted small"><em>MEMBER OF ARKA'S WHATSAPP</em></div>
+                                </div>
+                             
+                            </div>
+                        </div>
+    
+                        <div class="position-relative">
+                            <div id="sssa" class="chat-messages p-4">
+
+    
+
+
+
+    
+                            </div>
+                        </div>
+    
+                        <div class="flex-grow-0 py-3 px-4 border-top">
+                            <div class="input-group">
+                                <input id="input" style="margin: 10px;" type="text" class="form-control" placeholder="Type your message">
+                                <button onclick="send();"  class="btn btn-primary">Send ..</button>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+  
+</body>
+</html>
